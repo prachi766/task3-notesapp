@@ -1,11 +1,16 @@
-Simple Notes App 📝
-This is a minimalistic, console-based Java application that allows a user to save and view simple text notes. All notes are automatically timestamped and saved to a local file named notes.txt. It was built by a learner to practice core Java concepts like file I/O, Scanner input, while loops, and switch statements.
+Simple Notes App 
+This is a simple Java program that lets you write and view text notes. I built it step by step to make it easy to use and maintain.
+First, I planned the main features: writing a new note, reading saved notes, and keeping the notes stored between runs.
+I used a text file (notes.txt) to save the notes, and each note is automatically stamped with the date and time. 
+To make it user-friendly, I added a menu system with clear options so you can choose what to do.
+The program runs in a loop so you can write or read multiple notes until you decide to exit.
 
 Main Features:
--Write a Note: Saves user input with a timestamp ([MMM dd, yyyy 'at' hh:mm a]) to a file.
--Read Notes: Displays all previously saved notes from the file, numbered for clarity.
--Persistent Storage: Notes are saved to and read from a file named notes.txt, ensuring they persist between application runs.
--Menu-Driven Interface: Easy navigation through a command-line menu.
+-Write a new note (with automatic timestamp)
+-Read all previously saved notes
+-Notes are stored in notes.txt for future use
+-Menu-driven interface for easy navigation
+-Loop-based system so you can perform multiple actions in one session
 
 How to Run:
 The entire application is contained within a single file, NotesApp.java.
